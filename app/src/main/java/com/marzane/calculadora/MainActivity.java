@@ -36,6 +36,9 @@ public class MainActivity extends AppCompatActivity {
 
         int numero1 = Integer.parseInt(etNumero1.getText().toString());
         int numero2 = Integer.parseInt(etNumero1.getText().toString());
+        int suma = numero1 + numero2;
+
+        Toast.makeText(this, suma, Toast.LENGTH_SHORT).show();
 
     }
 }
